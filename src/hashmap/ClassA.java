@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class ClassA {
     public void method1(){
-        System.out.println("Implementing the HashMap");
+        System.out.println("------------Implementing the HashMap");
 
         // Creating a HashMap
         HashMap<Object, Object> hashMap = new HashMap<>();
