@@ -19,6 +19,7 @@ public class OnlineTicketBooking {
                 throw new IllegalArgumentException("Not enough seats available.");
             } else {
                 System.out.println("SEATS AVAILABLE AFTER BOOKING: " + (seatsAvailable - seatsRequested));
+                System.out.println(" Continue the Process of Booking "+ seatsRequested +" You Can Book now !!!!!!!!!!!");
                 System.out.println("PLEASE CONTINUE WITH YOUR BOOKING.");
             }
         } catch (IllegalArgumentException e) {

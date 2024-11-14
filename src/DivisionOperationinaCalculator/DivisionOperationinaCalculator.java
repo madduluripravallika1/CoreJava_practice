@@ -9,8 +9,8 @@ public class DivisionOperationinaCalculator {
         System.out.print(" Enter a number to divide : ");
         int num=scanner.nextInt();
         try {
-            int n1=num/num;
-            System.out.println(" Division BY Zero !!!!!!!"+n1);
+            int n1=num/0;
+            System.out.println(" Division BY Zero !!!!!!!" + n1);
 
         } catch (Exception e) {
             System.out.println("Error: Division by zero is not allowed!");
